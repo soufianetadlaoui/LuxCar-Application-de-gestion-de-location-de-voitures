@@ -1,0 +1,15 @@
+.input-field {
+    -fx-background-color: #2f2f40;
+    -fx-text-fill: white;
+    -fx-border-color: #444;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+    -fx-font-size: 13px;
+    -fx-pref-width: 250;
+}
+
+.input-field:focused {
+    -fx-border-color: #3498db;
+    -fx-background-color: #3a3a50;
+}

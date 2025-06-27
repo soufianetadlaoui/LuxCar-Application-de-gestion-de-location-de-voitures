@@ -1,0 +1,47 @@
+#login-title {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 20 0;
+}
+
+.input-field {
+    -fx-background-color: #2f2f40;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #444;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+    -fx-font-size: 13px;
+    -fx-pref-width: 250;
+}
+
+.input-field:focused {
+    -fx-border-color: #3498db;
+    -fx-background-color: #3a3a50;
+}
+
+.login-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.login-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.link-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #88aaff;
+    -fx-underline: true;
+    -fx-cursor: hand;
+}
+.link-button:hover {
+    -fx-text-fill: #aaccff;
+}
+

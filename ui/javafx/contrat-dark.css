@@ -1,0 +1,57 @@
+.contrat-layout {
+    -fx-background-color: #1e1e2f;
+}
+
+#contrat-title {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #2c2f3c;
+    -fx-border-width: 1;
+}
+
+.table-column {
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #2c3e50;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #2a2a3a;
+}
+
+.action-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 20;
+    -fx-cursor: hand;
+}
+
+.action-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.action-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 20;
+    -fx-cursor: hand;
+}
+
